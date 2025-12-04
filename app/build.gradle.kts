@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.calc"
+    namespace = "com.qurati.calc"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.calc"
+        applicationId = "com.qurati.calc"
         minSdk = 27
         targetSdk = 34
         versionCode = 1
@@ -32,6 +32,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 
